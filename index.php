@@ -13,7 +13,7 @@
 
     <h1 class="text-center">Registration for IT Conference</h1>
 
-    <form>
+    <form method="get" action="success.php" >
         <div class="mb-3">
             <label for="firstname" class="form-label">First Name</label>
             <input type="text" class="form-control" id="firstname">
