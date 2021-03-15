@@ -13,18 +13,18 @@
 
     <h1 class="text-center">Registration for IT Conference</h1>
 
-    <form method="get" action="success.php" >
+    <form method="get" action="success.php">
         <div class="mb-3">
             <label for="firstname" class="form-label">First Name</label>
-            <input type="text" class="form-control" id="firstname">
+            <input type="text" class="form-control" id="firstname" name="firstname">
         </div>
         <div class="mb-3">
             <label for="lastname" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="lastname">
+            <input type="text" class="form-control" id="lastname" name="lastname">
         </div>
         <div class="mb-3">
             <label for="dob" class="form-label">Date of Birth</label>
-            <input type="text" class="form-control" id="dob">
+            <input type="text" class="form-control" id="dob" name="dob">
         </div>
         <div class="mb-3">
             <label for="specialty" class="form-label">Area of Expertise</label>
@@ -37,17 +37,17 @@
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
             <label for="phone" class="form-label">Contact Number</label>
-            <input type="text" class="form-control" id="phone" aria-describedby="phoneHelp">
+            <input type="text" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp">
             <div id="phoneHelp" class="form-text">We'll never share your number with anyone else.</div>
         </div>
         
         <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn btn-primary" type="submit" name="submit">Submit</button>
         </div>
     </form>
     <br>
