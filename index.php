@@ -1,6 +1,7 @@
     <?php
     $title = 'Index';
-    require_once 'includes/header.php';
+        require_once 'includes/header.php';
+        require_once 'db/conn.php';
     ?>
     <!-- 
         - First name
@@ -13,7 +14,7 @@
 
     <h1 class="text-center">Registration for IT Conference</h1>
 
-    <form method="get" action="success.php">
+    <form method="post" action="success.php">
         <div class="mb-3">
             <label for="firstname" class="form-label">First Name</label>
             <input type="text" class="form-control" id="firstname" name="firstname">
@@ -28,8 +29,8 @@
         </div>
         <div class="mb-3">
             <label for="specialty" class="form-label">Area of Expertise</label>
-            <select class="form-control" id="specialty">
-                <option>Databse Admin</option>
+            <select class="form-control" id="specialty" name="specialty">
+                <option value="3">Databse Admin</option>
                 <option>Software Developer</option>
                 <option>Web Administrator</option>
                 <option>Other</option>
