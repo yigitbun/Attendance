@@ -10,7 +10,7 @@
       $email = $_POST['email'];
       $contact = $_POST['phone'];
       // Call function to insert and track if success or not
-      $isSuccess = $crud->insert($fname, $lname, $dob, $email, $contact, $specialty);
+      $isSuccess = $crud->insertAttendees($fname, $lname, $dob, $email, $contact, $specialty);
 
       if($isSuccess){
         echo '<h1 class="text-center text-success">You have been registered</h1>';
