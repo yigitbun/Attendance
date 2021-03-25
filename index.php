@@ -52,7 +52,7 @@ $results = $crud->getSpecialties();
         <div id="phoneHelp" class="form-text">We'll never share your number with anyone else.</div>
     </div>
 
-    <div class="d-grid gap-2 col-6 mx-auto"">
+    <div class="d-grid gap-2">
         <button class=" btn btn-primary" type="submit" name="submit">Button</button>
     </div>
 </form>
